@@ -1,0 +1,17 @@
+{
+  "name": "connection-handoff-coordinator",
+  "version": "1.0.0",
+  "description": "Node.js 长连接热升级交接协调库：所有权转移、未读缓冲与序号一致性、超时回退",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
